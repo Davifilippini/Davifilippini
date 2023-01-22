@@ -4,8 +4,8 @@
  <a href="https://github.com/Davifilippini/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true&theme=radical" />
 </a>
-<a href="https://github.com/Davifilippini/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&hide=contribs,prs" />
+<a href="https://github.com/Davifilippini/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davifilippini&layout=compact" />
 </a>
 
 </div>
