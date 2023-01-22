@@ -5,7 +5,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true&theme=radical" />
 </a>
 <a href="https://github.com/Davifilippini/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&hide=contribs,prs" />
 </a>
 
 </div>
