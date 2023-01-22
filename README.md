@@ -5,20 +5,9 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true&theme=radical" />
 </a>
 <a href="https://github.com/Davifilippini/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davifilippini&layout=compact" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=DaviFilippini&repo=github-readme-stats" />
 </a>
- 
- <picture>
-<source 
-  srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
-  media="(prefers-color-scheme: radical)"
-/>
-<source
-  srcset="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true"
-  media="(prefers-color-scheme: radical), (prefers-color-scheme: radical)"
-/>
-<img src="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true" />
-</picture>
+
 
 </div>
 <div style="display: inline_block"><br>
