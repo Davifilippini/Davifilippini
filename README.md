@@ -50,5 +50,5 @@
 <br>
 
 <div align="center">
-  <img src="https://github.com/Davifilippini/Davifilippini/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Davifilippini/Davifilippini/output/snake.svg" alt="Snake animation"/>
 </div>
