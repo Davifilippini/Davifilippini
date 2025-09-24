@@ -47,5 +47,12 @@
   </a> 
 </div>
 
+<br>
+
+<div align=center>
+  <img src="https://raw.githubusercontent.com/Davifilippini/Davifilippini/output/snake.svg" alt="Snake animation" />
+</div>
+
+
 
 
