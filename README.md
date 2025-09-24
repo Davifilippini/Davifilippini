@@ -47,10 +47,5 @@
   </a> 
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Davifilippini/Davifilippini/output/animacao-cobra.svg" alt="Snake animation"/>
-</div>
 
 
