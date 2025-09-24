@@ -1,13 +1,20 @@
 ## Bem-vindo(a) ao perfil do Davifilippini 😁
 
+   Olá! Sou Davi Filippini, programador Front End apaixonado por tecnologia e desenvolvimento web. Tenho criado projetos com HTML e CSS e, no momento, estou expandindo meus conhecimentos em JavaScript e React para evoluir cada vez mais na área. :rocket:
+
  <div>
+  <br>
  <a href="https://github.com/Davifilippini/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Davifilippini&show_icons=true&theme=radical" />
 </a>
+  <br>
+  <br>
 <a href="https://github.com/Davifilippini/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Davifilippini&show_icons=true&theme=radical" />
 </a>
 
+
+### Linguagens usadas !
 
 </div>
 <div style="display: inline_block"><br>
@@ -16,7 +23,6 @@
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
  
- <br>
  
   ### Redes Sociais !
  
