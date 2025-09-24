@@ -21,6 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      # !!! PASSO NOVO ADICIONADO AQUI PARA CRIAR A PASTA !!!
+      - name: Create dist directory
+        run: mkdir -p dist
+
       # PASSO 2: GERA O ARQUIVO SVG DA COBRA USANDO A VERSÃO MAIS RECENTE
       - name: Generate Snake SVG
         uses: Platane/snk@v3
