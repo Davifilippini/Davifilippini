@@ -30,6 +30,8 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: Davifilippini
+          # Adicionada a linha abaixo para usar a animação de texto garantida
+          from_url: https://raw.githubusercontent.com/Platane/snk/output/snek-dark.svg
           svg_out_path: dist/github-contribution-grid-snake.svg
 
       # PASSO 3: ENVIA O ARQUIVO GERADO PARA O BRANCH 'output'
