@@ -1,42 +1,32 @@
-# NOME DO WORKFLOW
-name: Generate Snake Animation
+name: Generate snake animation
 
-# PERMISSÕES PARA A ACTION LER SEUS DADOS DE CONTRIBUIÇÃO
-permissions:
-  contents: read
-
-# EVENTOS QUE DISPARAM A ACTION (AGENDAMENTO E MANUAL)
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  schedule: 
+    - cron: "* */12 * * *"
+
   workflow_dispatch:
 
-# TAREFAS QUE A ACTION VAI EXECUTAR
+  push:
+    branches:
+    - master
+
 jobs:
-  build:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      # PASSO 1: BAIXA O CÓDIGO DO SEU REPOSITÓRIO
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      # !!! PASSO NOVO ADICIONADO AQUI PARA CRIAR A PASTA !!!
-      - name: Create dist directory
-        run: mkdir -p dist
-
-      # PASSO 2: GERA O ARQUIVO SVG DA COBRA USANDO A VERSÃO MAIS RECENTE
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Davifilippini
-          from_url: https://raw.githubusercontent.com/Platane/snk/output/snek-dark.svg
-          # Mude o nome do arquivo na linha abaixo
-          svg_out_path: dist/animacao-cobra.svg 
+          outputs: dist/snake.svg?palette=github-dark
 
-      # PASSO 3: ENVIA O ARQUIVO GERADO PARA O BRANCH 'output'
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
